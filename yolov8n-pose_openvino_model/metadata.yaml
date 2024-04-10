@@ -1,0 +1,16 @@
+description: Ultralytics YOLOv8n-pose model trained on /usr/src/app/ultralytics/datasets/coco-pose.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-04-10T20:37:19.247970'
+version: 8.0.221
+stride: 32
+task: pose
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: person
+kpt_shape:
+- 17
+- 3
